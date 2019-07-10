@@ -1,0 +1,22 @@
+name: SEXDCore
+main: SEXDCore\Main
+version: 1.1.0
+api: [3.0.0]
+load: POSTWORLD
+author: sdsd16 
+description: SEXD伺服器-監獄生存綜合系統
+
+commands:
+ hub:
+  description: "傳送到主城"
+  permission: sexdcore.command.hub
+ keys:
+  description: "買鑰匙"
+  permission: sexdcore.command.keys 
+
+permissions:
+ sexdcore.command.hub:
+  default: true
+ sexdcore.command.keys:
+  default: true 
+
